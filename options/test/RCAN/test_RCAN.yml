@@ -1,4 +1,4 @@
-name: RCAN_BIX4-official
+name: RCAN_BIX2-official
 suffix: ~  # add suffix to saved images
 model_type: SRModel
 scale: 4
@@ -10,7 +10,7 @@ datasets:
   test_1:  # the 1st test dataset
     name: val_set5
     type: SingleImageDataset
-    dataroot_lq: ./datasets/images_test
+    dataroot_lq: ./images_test
     io_backend:
       type: disk
 
